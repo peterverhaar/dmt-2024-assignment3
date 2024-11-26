@@ -1,5 +1,6 @@
 from nltk.corpus import stopwords
 stopwords = stopwords.words('english')
+from nltk import word_tokenize, sent_tokenize
 import math
 import re
 
